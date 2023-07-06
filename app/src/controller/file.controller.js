@@ -1,4 +1,6 @@
 const uploadFile = require("../middleware/upload");
+const dotenv = require('dotenv');
+dotenv.config();
 const fs = require("fs");
 var hostip = process.env.HOSTIP
 var port = process.env.PORT
